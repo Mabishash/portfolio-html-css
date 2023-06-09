@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+body{
+    background-color: #fff;
+}
+
+a{
+    color:#f7f7f7;
+    text-decoration:none;
+}
+.navmenu a{
+    text-decoration: none;
+    margin:50px;
+    color:#f7f7f7;
+    font-size: 18px;
+
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:70px;
+}
+
+.navmenu li{
+    list-style:none;
+}
+.navmenu li a:hover{
+    color:#c8a6a6;
+}
+#header{
+    height:100vh;
+    overflow:hidden;
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color:#f7f7f7
+}
+video{
+    object-fit: contain;
+    z-index: -1;
+    
+}
+.header_content{
+    top:25%;
+    
+    color:#f7f7f7;
+}
+.name{
+    font-size: 60px;
+}
+.bi-star-fill{
+    color:goldenrod;
+}
+.ph{
+    font-size: 18px;
+}
+.ih{
+    font-size: 24px;
+    background: linear-gradient(45deg, rgba(247, 247, 247,0.2),white);
+    color:black;
+    padding: 1px 6px;
+    border-radius:25%;
+    margin-right: 15px;
+    
+}
+
+.ih:hover{
+    
+   
+    box-shadow: 3px 3px 10px rgba(255,255,255,0.5);
+    transform:translateY(2%);
+}
+.hb{
+    border:none;
+    outline:none;
+    border-radius:5px;
+    padding:5px 20px;
+    background-color:#e85a4f;
+    color:#f7f7f7;
+    font-size: 20px;
+}
+.hb:hover{
+    transform:translateY(2%);
+    box-shadow: 3px 3px 12px rgb(232, 90, 79,0.9);
+}
+.full{
+    color:#c8a6a6;
+}
+
+
+.a_img{
+    width:55%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
+#about{
+    color:#333333;
+    background: rgba(0,0,0, 0.03);
+}
+
+.ps{
+    font-size:18px;
+}
+.ps span{
+    color:grey;
+  
+}
+.lan img{
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    padding:10px 10px;
+    border-radius: 10%;
+    margin-bottom:15px;
+    background: #f7f7f7;
+}
+.lan img:hover{
+    
+    transform:translateY(2%);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.5)
+}
+#services{
+    color:#333333;
+    background: rgba(0,0,0, 0.03);
+}
+#skills{
+    color:#333333;
+}
+
+.sb{
+    border:none;
+    outline:none;
+    border-radius:5px;
+    padding:5px 20px;
+    background-color:#e85a4f;
+    color:#f7f7f7;
+    font-size: 18px;
+}
+.sb:hover{
+    transform:translateY(2%);
+    box-shadow: 3px 3px 12px rgb(232, 90, 79,0.9);
+}
+.f{
+    
+    box-shadow: 0 3rem 6rem rgba(0,0,0, 0.1);
+    padding:30px;
+    border-radius: 10px;
+}
+.f:hover{
+    transform:translateY(-1.5%);
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.4);
+}
+.con{
+    gap:40px;
+}
+#projects{
+    color:#333333;
+}
+#projects img{
+    border-radius:5px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    object-fit: cover;
+    
+}
+.pro h3 span{
+    font-size:20px;
+}
+.pro img:hover{
+    transform:translateY(-2%);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.5)
+}
+.cf{
+    background-color: #c8a6a6;
+    color:#f7f7f7
+}
+.cf p{
+    color:rgba(255,255,255,0.8)
+}
+.cf i{
+    border: 1px solid #f7f7f7;
+    padding: 10px 17px;
+    border-radius: 50%;
+}
+.fo input,textarea{
+    border:none;
+    outline:none;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    width:100%;
+}
+.fo button{
+    color:#f7f7f7;
+    background: #c8a6a6;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    padding:5px 20px;
+    
+    font-size: 16px;
+
+}
+.fo button:hover{
+    transform:translateY(2%);
+    box-shadow: 3px 3px 12px rgb(200, 166, 166,0.9);
+}
+.contact{
+    box-shadow: 0 3rem 6rem rgba(0,0,0, 0.1);
+}
+
+
+@media (max-width:768px)
+{
+    .navmenu a{
+        margin:15px;
+        font-size: 16px;
+    }
+    video{
+        object-fit: cover;
+        width:100%;
+        height:100vh
+    }
+    .header_content{
+        left:0
+    }
+    .name{
+        
+        font-size: 40px;
+    }
+    .h{
+        font-size:24px; ;
+    }
+    .ph{
+        font-size: 16px;
+    }
+    .ih{
+        margin:0 15px;
+    }
+    .a_img{
+        width:75%;
+    }
+    
+    
+    
+
+}
+
